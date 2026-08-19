@@ -1,5 +1,4 @@
--- Create your own database/schema if you want.
--- Suggested layers: raw -> staging -> marts.
+
 
 CREATE TABLE IF NOT EXISTS dim_customer (
     customer_id      BIGINT PRIMARY KEY,

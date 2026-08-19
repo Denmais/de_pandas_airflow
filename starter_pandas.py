@@ -586,5 +586,4 @@ if __name__ == "__main__":
         .value_counts()
     )
 
-    # Твоя следующая часть:
     daily_sales = build_daily_sales(orders)

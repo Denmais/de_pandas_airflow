@@ -13,8 +13,6 @@ def load_customers(
 
     with engine.begin() as conn:
 
-        # Настоящая PostgreSQL temporary table.
-        # Существует только внутри текущего соединения.
         conn.execute(text("""
             CREATE TEMP TABLE temp_cust (
                 customer_id BIGINT,
