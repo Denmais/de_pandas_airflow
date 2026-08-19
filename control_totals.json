@@ -1,0 +1,11 @@
+{
+  "raw_rows": {
+    "customers.csv": 221,
+    "orders.csv": 1602,
+    "events.csv": 4501
+  },
+  "notes": [
+    "Raw files intentionally contain duplicates, invalid timestamps, nulls and inconsistent categorical values.",
+    "Do not use raw row counts as final business metrics."
+  ]
+}
